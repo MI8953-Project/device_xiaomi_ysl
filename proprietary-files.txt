@@ -1,4 +1,4 @@
-# ADSP
+# ADSP - from FP3:11/8901.4.A.0019.2
 vendor/bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
