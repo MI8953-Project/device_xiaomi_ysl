@@ -20,6 +20,9 @@ genfscon sysfs /devices/platform/soc/soc:qcom,mdss_wb_panel/extcon u:object_r:sy
 # Mmc
 genfscon sysfs /devices/platform/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/queue/discard_max_bytes u:object_r:sysfs_mmc_host:s0
 
+# MSM_SUBSYS
+genfscon sysfs /sys/devices/platform/soc/4080000.qcom,mss/subsys0/name		u:object_r:sysfs_subsys:s0
+
 # Rmt
 genfscon debugfs /rmt_storage	u:object_r:debugfs_rmt:s0
 

@@ -45,6 +45,9 @@
 # Location
 /data/vendor/location/xtra/socket_hal_xtra    u:object_r:location_socket:s0
 
+# MSM_SUBSYS
+/sys/devices/platform/soc/4080000\.qcom,mss/subsys[0-9]+/name				u:object_r:sysfs_subsys:s0
+
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril\.db			u:object_r:rild_file:s0
 
@@ -57,3 +60,4 @@
 /sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/enable_dt2w		u:object_r:proc_touchpanel:s0
 /sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/disable_keys         u:object_r:proc_touchpanel:s0
 /sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/wakeup_gesture       u:object_r:proc_touchpanel:s0
+
